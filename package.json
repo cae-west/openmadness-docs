@@ -1,0 +1,26 @@
+{
+  "name": "openmadness-docs",
+  "version": "1.0.0",
+  "description": "Complete documentation for Openmadness - array and matrix operations library",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [
+    "openmadness",
+    "documentation",
+    "array",
+    "matrix",
+    "vuepress"
+  ],
+  "author": "Technical Writing Mentorship Program",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "next",
+    "@vuepress/theme-default": "next",
+    "sass-embedded": "^1.104.1",
+    "vuepress": "next"
+  }
+}
