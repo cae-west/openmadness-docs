@@ -12,9 +12,19 @@ export default defineUserConfig({
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/getting-started/' },
       { text: 'How-To', link: '/how-to/' },
+      { text: 'Changelog', link: '/changelog.html' },
       { text: 'Credits', link: '/credits/' },
     ],
     sidebar: {
+      '/': [
+        {
+          text: 'Home',
+          children: [
+            'project-description.md',
+            'key-features.md',
+          ],
+        },
+      ],
       '/getting-started/': [
         {
           text: 'Getting Started',
@@ -22,6 +32,7 @@ export default defineUserConfig({
             'what-is.md',
             'how.md',
             'installation.md',
+            'troubleshooting.md',
           ],
         },
       ],

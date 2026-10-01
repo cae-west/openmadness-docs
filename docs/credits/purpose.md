@@ -6,4 +6,4 @@
 
 This documentation serves as both a complete guide to using Openmadness and a demonstration of professional technical writing practices.
 
-[MORE CONTENT FROM THERESA HERE]
+[MORE CONTENT FROM TERESA HERE]
