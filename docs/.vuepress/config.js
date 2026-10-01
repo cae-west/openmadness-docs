@@ -12,7 +12,7 @@ export default defineUserConfig({
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/getting-started/' },
       { text: 'How-To', link: '/how-to/' },
-      { text: 'Changelog', link: '/changelog.html' },
+      { text: 'Changelog', link: '/changelog/' },
       { text: 'Credits', link: '/credits/' },
     ],
     sidebar: {
@@ -46,6 +46,12 @@ export default defineUserConfig({
             'arithmetic-operations.md',
             'data-operations.md',
           ],
+        },
+      ],
+      '/changelog/': [
+        {
+          text: 'Changelog',
+          children: [],
         },
       ],
       '/credits/': [
