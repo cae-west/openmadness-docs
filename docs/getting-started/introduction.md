@@ -7,23 +7,22 @@ This is not a NumPy port — it’s a simple, JavaScript-first take on similar p
 
 ## How Does Openmadness Help Developers?
 Openmadness is ideal for experienced developers and beginning coders alike:
+- **Built for beginners** – No complex setup or confusing syntax.
+- **Modular and lightweight** – Use what you need, nothing more.
+- **Simple, chainable API** – Modeled after real-world learning patterns.
+- **Easily testable** – Great for REPLs, personal projects, and learning by doing.
+- **Modern JavaScript** – Built with ES modules and functional patterns.
 
-- *Built for beginners* – No complex setup or confusing syntax.
-- *Modular and lightweight* – Use what you need, nothing more.
-- *Simple, chainable API* – Modeled after real-world learning patterns.
-- *Easily testable* – Great for REPLs, personal projects, and learning by doing.
-- *Modern JavaScript* – Built with ES modules and functional patterns.
+## Operations Included
 
-## Operations include:
+- Building arrays/matrices: [`omArray()'`](/how-to/array-creation.md)
+- Statistical Operations: [`.sum()`, `.mean()`, `.max()`, `.min()`](/how-to/statistical-operations.md)
+- Array Manipulation: [`.reshape()`, `.flatten()`, `.transpose()`](/how-to/array-manipulation.md)
+- Arithmetic Operations: [`.dot()`, `.add()`, `.subtract()`, `.multiply()`, `.divide()`](/how-to/arithmetic-operations.md)  
+- Data Operations: [Logical masking, slicing, and filtering](/how-to/data-operations.md)
 
-- [`omArray()` for building arrays/matrices](/how-to/array-creation.md)
-- [`.sum()`, `.mean()`, `.max()`, `.min()`](/how-to/statistical-operations.md)
-- [`.reshape()`, `.flatten()`, `.transpose()`](/how-to/array-manipulation.md)
-- [`.dot()`, `.add()`, `.subtract()`, `.multiply()`, `.divide()`](/how-to/arithmetic-operations.md)  
-- [Logical masking, slicing, and filtering](/how-to/data-operations.md)
-
-## 'omArray' Example
-
+## `omArray` Example
+Below is a basic example of a use of Openmadness' `omArry` function:
 ```js
 import { omArray } from 'openmadness';
 

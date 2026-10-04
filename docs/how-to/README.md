@@ -1,3 +1,3 @@
-# Credits
+# How to Guide on Openmadness
 
-Learn more about the team and the Technical Writing Mentorship Program.
+Learn how to use Openmadness operations in these step-by-step guides

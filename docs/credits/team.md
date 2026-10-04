@@ -4,7 +4,7 @@ This documentation was created by the Technical Writing Mentorship Program (TWMP
 
 ### Contributors
 - **Theresa** - Home Page & Project Overview
-- **Ethan** - Getting Started & Installation
+- **Ethan** - Getting Started, Installation, & Troubleshooting
 - **Cae** - How-To Guides, API References, and Error Handling
 
 [MORE CONTENT FROM TERESA HERE]

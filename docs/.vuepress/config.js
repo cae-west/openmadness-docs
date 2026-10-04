@@ -29,8 +29,7 @@ export default defineUserConfig({
         {
           text: 'Getting Started',
           children: [
-            'what-is.md',
-            'how.md',
+            'introduction.md',
             'installation.md',
             'troubleshooting.md',
           ],

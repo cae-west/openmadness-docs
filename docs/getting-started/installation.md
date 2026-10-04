@@ -1,9 +1,9 @@
 # Installation and Setup
-Instructions on how to 
+How to install and use Openmadness library, using npm or download directly to your own machine.
 
-## Install via NPM
+## Install via npm
 
-The library is available on npm for easy installation:
+The Openmadness library is available on npm for easy installation:
 
 ```bash
 npm install openmadness
@@ -18,34 +18,35 @@ const sample = omArray([10, 20, 30]);
 console.log(sample.mean()); // ➝ 20
 ```
 
-## Test it locally
+## Testing Locally
 
 The following steps will guide you to set up Openmadness locally:
 
-**Clone the repo:**
+1. **Clone the repo**
 
 ```bash
 git clone https://github.com/yourusername/openmadness.git
 cd openmadness
 ```
 
-**Install dependencies:**
+2. **Install dependencies**
 
 ```bash
 npm install
 ```
 
-**Run tests and play around in dev:**
+**3. Run tests and play around in dev**
 
 ```bash
 npm run test
 ```
 
-**Try it in a local REPL or script:**  
+**4. Try it in a local REPL or script**  
 
 Create a simple test script like `play.js`:
 
-```js
+//`play.js` title barely shows up in light mode
+```js title="play.js"
 import { omArray } from './src/index.js';
 
 const data = omArray([1, 2, 3, 4]);
