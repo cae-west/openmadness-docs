@@ -2,7 +2,7 @@
 
 
 ## Installation Error
-If NPM installation of Openmadness fails first verify if your version of Node.js is supported:
+If npm installation of Openmadness fails first verify if your version of Node.js is supported:
 ```shell
 node --version
 npm --version
@@ -21,7 +21,7 @@ npm install openmadness
 ## Module Not Found
 If terminal returns error `Cannot find module 'openmadness'`, try following solutions:
 
-**Confirm **
+**Confirm and Install**
 1. Confirm package is installed
 ```shell
 npm list openmadness
@@ -32,7 +32,7 @@ npm install openmadness
 ```
 **Verify your import statement:**
 
-It should look like as follows:
+It should look like:
 ```js
 import { omArray } from "openmadness";
 ```
@@ -48,7 +48,7 @@ SyntaxError: Cannot use import statement outside a module
 **Solution**
 
 Add the following to `package.json`:
-```json
+```json title="package.json"
 {
 "type": "module"
 }
