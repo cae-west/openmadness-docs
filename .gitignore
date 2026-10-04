@@ -6,3 +6,5 @@ docs/.vuepress/.temp/
 docs/.vuepress/.cache/
 .vuepress/.temp/
 .vuepress/.cache/
+pnpm-lock.yaml
+pnpm-workspace.yaml
