@@ -18,18 +18,18 @@ const sample = omArray([10, 20, 30]);
 console.log(sample.mean()); // ➝ 20
 ```
 
-## Testing Locally
+## Install Locally
 
-The following steps will guide you to set up Openmadness locally:
+The following steps will guide you to set up Openmadness locally on your machine:
 
-1. **Clone the repo**
+**1. Clone the repo**
 
 ```bash
 git clone https://github.com/yourusername/openmadness.git
 cd openmadness
 ```
 
-2. **Install dependencies**
+**2. Install dependencies**
 
 ```bash
 npm install
@@ -44,8 +44,6 @@ npm run test
 **4. Try it in a local REPL or script**  
 
 Create a simple test script like `play.js`:
-
-//`play.js` title barely shows up in light mode
 ```js title="play.js"
 import { omArray } from './src/index.js';
 
