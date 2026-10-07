@@ -16,6 +16,7 @@ export default defineUserConfig({
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/getting-started/' },
       { text: 'How-To', link: '/how-to/' },
+      { text: 'API References', link: '/api-references/' },
       { text: 'Changelog', link: '/changelog/' },
       { text: 'Credits', link: '/credits/' },
     ],
@@ -31,7 +32,7 @@ export default defineUserConfig({
         ],
       },
       {
-        text: 'How-To / API References / Error Handling',
+        text: 'How-To / Error Handling',
         link: '/how-to/',
         prefix: '/how-to/',
         children: [
@@ -41,6 +42,10 @@ export default defineUserConfig({
           'arithmetic-operations',
           'data-operations',
         ],
+      },
+      {
+        text: 'API References',
+        link: '/api-references/',
       },
       {
         text: 'Changelog',
