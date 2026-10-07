@@ -1,6 +1,6 @@
 # Quickstart
 
-These guide shows the basics of the Openmadness library you need to know in order to immediately start using it.
+This quickstart guide demonstrates the basics of the Openmadness library. This includes core concepts and basic operations  you need to know in order to immediately start using it.
 
 ## [] Example
 
@@ -19,4 +19,4 @@ import { omArray } from 'openmadness';
 ### 4. 
 
 ## Next
-For more information on Openmadness operations go to the [How-To Guide](../how-to/README.md).
+Good job on completing your first array . For more information on Openmadness operations go to the [How-To Guide](../how-to/README.md).

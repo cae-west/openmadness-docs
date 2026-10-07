@@ -1,5 +1,6 @@
-# API References
-
+---
+title: API References
+---
 ## Overview
 
 This page lists every Openmadness method, with its syntax, parameters, return value, and errors. For step-by-step examples, see the How-To guides linked in each section.

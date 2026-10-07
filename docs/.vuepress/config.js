@@ -14,7 +14,7 @@ export default defineUserConfig({
     navbarTitle: '',
     navbar: [
       { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/getting-started/' },
+      { text: 'Getting Started', link: '/getting-started/introduction.md' },
       { text: 'How-To', link: '/how-to/' },
       { text: 'API References', link: '/api-references/' },
       { text: 'Changelog', link: '/changelog/' },
@@ -23,7 +23,7 @@ export default defineUserConfig({
     sidebar: [
       {
         text: 'Getting Started',
-        link: '/getting-started/',
+        link: '/getting-started/introduction.md',
         prefix: '/getting-started/',
         children: [
           'introduction',
@@ -57,11 +57,7 @@ export default defineUserConfig({
       },
       {
         text: 'Credits',
-        prefix: '/credits/',
-        children: [
-          'purpose',
-          'team',
-        ],
+        link: '/credits/',
       },
     ],
     plugins: {

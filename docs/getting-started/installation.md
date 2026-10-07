@@ -1,7 +1,11 @@
 # Installation and Setup
 How to install and setup Openmadness, using npm or download directly to your own machine.
 
-## Install via npm
+:::important Prerequisite
+[Node.js v22+](https://nodejs.org/en/download/) installed or equivalent JavaScript runtime environment
+:::
+
+## Install via npm <Badge type="tip" text="Recommended" />
 
 The Openmadness library is available on npm for easy installation, simply type in your terminal:
 
@@ -18,7 +22,7 @@ const sample = omArray([10, 20, 30]);
 console.log(sample.mean()); // ➝ 20
 ```
 
-## Install Locally
+## Install Locally <Badge type="warning" text="For Development" />
 
 The following steps will guide you to set up Openmadness locally on your machine:
 

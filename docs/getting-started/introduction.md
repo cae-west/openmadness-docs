@@ -14,7 +14,6 @@ Openmadness is ideal for experienced developers and beginning coders alike:
 - **Modern JavaScript** – Built with ES modules and functional patterns.
 
 ## Operations Included
-
 - Building arrays/matrices: [`omArray()'`](/how-to/array-creation.md)
 - Statistical Operations: [`.sum()`, `.mean()`, `.max()`, `.min()`](/how-to/statistical-operations.md)
 - Array Manipulation: [`.reshape()`, `.flatten()`, `.transpose()`](/how-to/array-manipulation.md)

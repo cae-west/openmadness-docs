@@ -1,5 +1,7 @@
-# Changelog
-
+---
+title: Changelog
+sidebar: false
+---
 ## Version 1.0.0 (October 2026)
 
 ### Initial Release
