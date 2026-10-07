@@ -18,9 +18,9 @@
   "author": "Technical Writing Mentorship Program",
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/bundler-vite": "next",
-    "@vuepress/theme-default": "next",
-    "sass-embedded": "^1.104.1",
-    "vuepress": "next"
+    "@vuepress/bundler-vite": "2.0.0-rc.31",
+    "sass-embedded": "latest",
+    "vuepress": "2.0.0-rc.31",
+    "vuepress-theme-hope": "2.0.0-rc.110"
   }
 }
