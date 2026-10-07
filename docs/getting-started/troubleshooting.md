@@ -1,6 +1,5 @@
 # Troubleshooting
 
-
 ## Installation Error
 If npm installation of Openmadness fails first verify if your version of Node.js is supported:
 ```shell
@@ -37,15 +36,11 @@ It should look like:
 import { omArray } from "openmadness";
 ```
 
-## ES Module Import Errors
-**Error**
-
-If terminal returns following error:
+## ES Module Import Error
+If terminal returns:
 ```
 SyntaxError: Cannot use import statement outside a module
 ```
-
-**Solution**
 
 Add the following to `package.json`:
 ```json title="package.json"
