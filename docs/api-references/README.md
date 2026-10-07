@@ -44,7 +44,7 @@ import { omArray } from 'openmadness';
 
 ## Creation Methods
 
-For examples, see [Array/Matrix Creation](./array-creation.md).
+For examples, see [Array/Matrix Creation](/how-to/array-creation.md).
 
 ### `omArray(data)`
 
@@ -84,7 +84,7 @@ const matrix = omArray([
 
 ## Statistical Methods
 
-For examples, see [Statistical Operations](./statistical-operations.md). All four methods use every element in the array, no matter how many dimensions it has.
+For examples, see [Statistical Operations](/how-to/statistical-operations.md). All four methods use every element in the array, no matter how many dimensions it has.
 
 ### `.sum()`
 
@@ -211,7 +211,7 @@ omArray([72, 68, 75, 61, 70]).min(); // ➝ 61
 
 ## Manipulation Methods
 
-For examples, see [Array Manipulation](./array-manipulation.md).
+For examples, see [Array Manipulation](/how-to/array-manipulation.md).
 
 ### `.transpose()`
 
@@ -307,7 +307,7 @@ omArray([1, 2, 3, 4, 5, 6]).reshape(2, 3); // ➝ [[1, 2, 3], [4, 5, 6]]
 
 ## Arithmetic Methods
 
-For examples, see [Arithmetic Operations](./arithmetic-operations.md).
+For examples, see [Arithmetic Operations](/how-to/arithmetic-operations.md).
 
 ### `.add(other)`
 
@@ -478,7 +478,7 @@ omArray([[1, 2], [3, 4]]).dot(omArray([[5, 6], [7, 8]])); // ➝ [[19, 22], [43,
 
 ## Data Methods
 
-For examples, see [Data Operations](./data-operations.md).
+For examples, see [Data Operations](/how-to/data-operations.md).
 
 ### `.slice(start, end)`
 
