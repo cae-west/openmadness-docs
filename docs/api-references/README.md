@@ -599,4 +599,4 @@ omArray([10, 20, 30, 40]).mask([true, false, true, false]); // ➝ [10, 30]
 | `.filter(callback)` | `callback` isn't a function | — |
 | `.mask(mask)` | `mask` isn't an array of `true`/`false` values | Lengths don't match |
 
-For help fixing errors, see [Troubleshooting](../getting-started/troubleshooting.md).
+For help fixing errors, see [Troubleshooting](../troubleshooting/README.md).

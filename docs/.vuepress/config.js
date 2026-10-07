@@ -28,7 +28,6 @@ export default defineUserConfig({
         children: [
           'introduction',
           'installation',
-          'troubleshooting',
         ],
       },
       {
@@ -46,6 +45,10 @@ export default defineUserConfig({
       {
         text: 'API References',
         link: '/api-references/',
+      },
+      {
+        text: 'Troubleshooting',
+        link: '/troubleshooting/',
       },
       {
         text: 'Changelog',

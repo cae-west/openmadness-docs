@@ -37,4 +37,4 @@ Each guide uses the same layout:
 
 If you're new to Openmadness, go through the guides in order, starting with [Array/Matrix Creation](./array-creation.md). Each guide builds on the one before it. If you already know what you need, go straight to that guide using the table above.
 
-If you run into problems, see [Troubleshooting](../getting-started/troubleshooting.md).
+If you run into problems, see [Troubleshooting](../troubleshooting/README.md).

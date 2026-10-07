@@ -163,4 +163,4 @@ console.log(numbers.filter(x => x > 2)); // ✅ Correct
 
 ## Next Steps
 
-You've finished the How-To guides! If you run into any problems, see [Troubleshooting](../getting-started/troubleshooting.md).
+You've finished the How-To guides! If you run into any problems, see [Troubleshooting](../troubleshooting/README.md).
