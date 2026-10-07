@@ -1,6 +1,6 @@
 # Quickstart
 
-Here are the basics you need to know in order to start immediately using Openmadness.
+These guide shows the basics of the Openmadness library you need to know in order to immediately start using it.
 
 ## [] Example
 

@@ -1,9 +1,9 @@
 # Installation and Setup
-How to install and use Openmadness library, using npm or download directly to your own machine.
+How to install and setup Openmadness, using npm or download directly to your own machine.
 
 ## Install via npm
 
-The Openmadness library is available on npm for easy installation:
+The Openmadness library is available on npm for easy installation, simply type in your terminal:
 
 ```bash
 npm install openmadness
