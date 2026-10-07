@@ -2,14 +2,18 @@
 home: true
 heroText: Openmadness
 tagline: Complete guide to using Openmadness for array and matrix operations
-heroImage: /logo.png
+heroImage: /logo-icon.png
+heroImageDark: /logo-icon-dark.png
+heroAlt: Openmadness logo
+heroImageStyle:
+  max-width: 300px
 actions:
   - text: Get Started
     link: /getting-started/
     type: primary
   - text: View How-To Guides
     link: /how-to/
-    type: secondary
+    type: default
 features:
   - title: Multi-Dimensional Array Handling
     details: Easily create, manipulate, and transform arrays of any dimension.
@@ -23,6 +27,5 @@ features:
     details: Built to be flexible and adaptable to your specific needs.
   - title: Easy Installation
     details: Get up and running with Openmadness in minutes.
-
 footer: MIT Licensed | Copyright © TWMP Openmadness Project
 ---

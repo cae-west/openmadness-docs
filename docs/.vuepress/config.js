@@ -8,6 +8,10 @@ export default defineUserConfig({
   description: 'Complete guide to using Openmadness for array and matrix operations',
   bundler: viteBundler(),
   theme: hopeTheme({
+    favicon: '/favicon.png',
+    logo: '/logo-wordmark.png',
+    logoDark: '/logo-wordmark-dark.png',
+    navbarTitle: '',
     navbar: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/getting-started/' },
