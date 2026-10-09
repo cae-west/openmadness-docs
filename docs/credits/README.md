@@ -17,4 +17,4 @@ This documentation was created by the students of the TWMP as a collaborative pr
 ### Contributors
 - **Ethan** - Getting Started, Installation, Glossary, Troubleshooting, & Credits
 - **Cae** - Home Page, Quickstart, How-To Guides, API References, & Error Handling
-- **Theresa** - Project Overview
+- **Theresa** - N/A

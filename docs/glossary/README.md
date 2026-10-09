@@ -6,15 +6,15 @@ author: Ethan
 The following is a glossary featuring consise definitions of common Javascript terms and concepts. Useful for both beginners and veterans to Javascript.
 
 ## Arrays
-Used to store multiple values in a single variable. They are zero-indexed and can hold mixed data types.
+Used to store multiple values in a single variable. They are zero-indexed and can hold mixed [data types](#data-types).
 ## Async/Await
-Async/Await are way to handle asynchronous operations in JavaScript, built on Promises.
+Async/Await are way to handle asynchronous operations in JavaScript, built on [Promises](#promises).
 ## Arrow Functions
-Arrow functions in JavaScript are a concise syntax for writing functions introduced in [ES6](https://www.geeksforgeeks.org/javascript/introduction-to-es6/).
+Arrow functions in JavaScript are a concise syntax for writing [functions](#functions) introduced in [ES6](https://www.geeksforgeeks.org/javascript/introduction-to-es6/).
 ## ArrayBuffer
 ArrayBuffer in JavaScript is a fixed-length binary data buffer used to handle raw binary data.
 ## Axios
-Axios is a popular JavaScript library for making HTTP requests.
+Axios is a popular JavaScript library for making [HTTP requests](#http-requests).
 ## Boolean
 Boolean represents one of two values: true or false, often used for logical operations and conditional statements.
 ## Browser Object Model (BOM)
@@ -22,7 +22,7 @@ It provides APIs to interact with the browser's features, such as managing the b
 ## Bind (Function Method)
 The `bind()` creates a new function with this bound to a specific object.
 ## `BigInt`
-A `BigInt` is a data type for representing integers larger than a Number (e.g. `MAX_SAFE_INTEGER`).
+A `BigInt` is a [data type](#data-types) for representing integers larger than a Number (e.g. `MAX_SAFE_INTEGER`).
 ## Break Statement
 A Break Statement terminates a loop or switch statement.
 ## Callback Functions
@@ -44,10 +44,10 @@ Destructuring is a syntax in JavaScript that allows unpacking values from arrays
 ## Default Parameters
 Allows default values for function parameters if none are provided.
 ## Data Types
-Categories of values in JavaScript (e.g., `number`, `string`, `object`).
+Categories of values in JavaScript (e.g., `number`, `string`, `object`). (See also [Primitive Data Types](#primitive-data-types))
 ## Date
 Provides methods to work with dates and times.
-## Debugging
+## Debugging [maybe delete]
 The process of finding and fixing errors in code.
 ## Defer (Script Attribute)
 Ensures scripts execute after the HTML is parsed.
@@ -60,7 +60,7 @@ Mechanisms for catching and managing runtime errors.
 ## ECMAScript (ES)
 EcmaScript is the standard for JavaScript, with various editions introducing new features.
 ## Event Loop
-Event Loop Handles asynchronous operations in JavaScript.
+Event Loop handles asynchronous operations in JavaScript.
 ## Expressions
 Expressions are the code snippets that produce a value.
 ## Encapsulation (OOP)
@@ -119,24 +119,27 @@ Math Object are the built-in object that provides mathematical constants and fun
 It is a special JavaScript value representing the intentional absence of any object value.
 ## `NaN` (Not-a-Number)
 `NaN` is aspecial JavaScript value representing an invalid number or a mathematical operation that cannot be performed.
+## Objects
+An object is a dynamic data structure that stores related data as key-value pairs, where each key uniquely identifies its value.
 ## Object-Oriented Programming (OOP)
-OOP is a programming paradigm based on the concept of objects, using classes and inheritance.
+OOP is a programming paradigm based on the concept of objects, using classes and inheritance. (See [Encapsulation](#encapsulation-oop) and [Inheritence](#inheritance-oop))
 ## Operators
 Operators are the symbols used to perform operations on values and variables.
+
 ## Primitive Data Types
-Primitive Data Types are the simplest types in JavaScript, such as `string`, `number`, `boolean`, `null`, `undefined`, `symbol`, and `bigint`.
+Primitive Data Types are the simplest types in JavaScript, such as [`string`](#strings), `number`, [`boolean`](#boolean), [`null`](#null), [`undefined`](#undefined), `symbol`, and [`bigint`](#bigint).
 ## Promises
 A JavaScript Promise is an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 ## Rest Operator (...)
-Rest Operator collects remaining elements into an array or object.
+Rest Operator collects remaining elements into an [array](#arrays) or [object](#objects).
 ## Scope
-Scope determines the accessibility of variables, functions, and objects in different parts of code.
+Scope determines the accessibility of [variables](#variables), [functions](#functions), and [objects](#objects) in different parts of code.
 ## Strings
 Strings are the sequence of characters used to represent text.
 ## `setTimeout()`
-Executes a function after a specified delay.
+Executes a [function](#functions) after a specified delay.
 ## Shallow Copy
-Shallow copy is the copy of an object/array where only the first level is copied.
+Shallow copy is the copy of an [object](#objects)/[array](#arrays) where only the first level is copied.
 ## Switch Statement
 A control flow statement for executing one block of code out of many.
 ## Ternary Operator
@@ -144,18 +147,18 @@ Ternary operator is the shorthand for if-else statements.
 ## Template Literals
 Template literals allow embedding expressions and multi-line strings using `${expression}` syntax.
 ## `this` Keyword
-`this` keyword refers to the object that is executing the current function
+`this` keyword refers to the [object](#objects) that is executing the current [function](#functions).
 ## Try-Catch
 A block to handle exceptions in code.
 ## `undefined`
-A variable that has been declared but not assigned a value is called undefined.
+A [variable](#variables) that has been declared but not assigned a value is called undefined.
 ## Unary Operators
 Unary Operators are operators that operate on a single operand.
 ## Variables
 Variables are the containers for storing data values in JavaScript.
-## window Object
-The window object is the global object representing the browser window in which the script is running.
-## WeakMap
-A WeakMap is a collection of key-value pairs where the keys are objects, and the values can be any arbitrary value.
-## WeakSet
-A WeakSet is a collection of unique objects where the values are weakly held (can be garbage collected).
+## `window` Object
+The `window` Object is the global object representing the browser window in which the script is running.
+## `WeakMap`
+A `WeakMap` is a collection of key-value pairs where the keys are objects, and the values can be any arbitrary value.
+## `WeakSet`
+A `WeakSet` is a collection of unique objects where the values are weakly held (can be garbage collected).

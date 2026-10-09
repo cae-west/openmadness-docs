@@ -8,6 +8,7 @@ title: Changelog
 - Getting Started guide with installation instructions
 - How-To guides for all major functions
 - API references and error handling documentation
+- Glossary with Javascript concepts and terminology
 - Credits page with team information
 
 ### Features

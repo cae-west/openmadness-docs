@@ -6,7 +6,7 @@ These guides show you how to use Openmadness to create, analyze, reshape, and do
 
 ## Before You Start
 
-Make sure Openmadness is installed. If it isn't, follow [Installation and Setup](../getting-started/installation.md) first.
+Make sure Openmadness is installed. If it isn't, follow [Installation](../getting-started/installation.md) first.
 
 Every example in these guides assumes you've already imported `omArray`:
 
