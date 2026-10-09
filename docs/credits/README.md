@@ -1,5 +1,6 @@
 ---
 title: Credits
+author: Ethan
 ---
 Learn more about the Technical Writing Mentorship Program and the people behind this fictional opensource documentation project.
 
@@ -14,6 +15,6 @@ This documentation serves as guide to using the fictional Openmadness Javascript
 This documentation was created by the students of the TWMP as a collaborative project.
 
 ### Contributors
-- **Ethan** - Project Overview, Getting Started, Installation, Quickstart, & Troubleshooting
-- **Cae** - How-To Guides, API References, Error Handling, & Home Page
+- **Ethan** - Getting Started, Installation, Glossary, Troubleshooting, & Credits
+- **Cae** - Home Page, Quickstart, How-To Guides, API References, & Error Handling
 - **Theresa** - Project Overview

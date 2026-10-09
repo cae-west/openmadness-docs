@@ -1,6 +1,6 @@
 ---
 title: Quickstart
-author: Ethan
+author: Cae
 ---
 This quickstart guide demonstrates the basics of the Openmadness library. This includes core concepts and basic operations  you need to know in order to immediately start using it.
 
