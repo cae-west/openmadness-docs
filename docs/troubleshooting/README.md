@@ -1,11 +1,16 @@
-# Troubleshooting
-
+---
+title: Troubleshooting
+---
 ## Installation Error
-If npm installation of Openmadness fails first verify if your version of Node.js is supported:
+If npm installation of Openmadness fails, first verify if your version of Node.js is supported:
 ```shell
 node --version
 npm --version
 ```
+:::warning
+Openmadness only supports Node.js v22+
+:::
+
 If the version is supported:
 
 1. Clear npm cache:
@@ -17,15 +22,17 @@ npm cache clean --force
 npm install openmadness
 ```
 
-## Module Not Found
-If terminal returns error `Cannot find module 'openmadness'`, try following solutions:
+## "Module Not Found" Error
+This error usually occurs if OpenMadness is not installed correctly or the import path is incorrect.
+
+Try following solutions:
 
 **Confirm and Install**
 1. Confirm package is installed
 ```shell
 npm list openmadness
 ```
-2. Install Openmadness if it is missing
+2. If missing, install Openmadness 
 ```shell
 npm install openmadness
 ```
@@ -34,6 +41,17 @@ npm install openmadness
 It should look like:
 ```js
 import { omArray } from "openmadness";
+```
+**Verify Openmadness listing in `package.json`**
+Verify that Openmadness is listed in your `package.json` dependencies.
+
+The dependencies section of `package.json` should look like this:
+```json
+{
+  "dependencies": {
+    "openmadness": "^1.0.0"
+  }
+}
 ```
 
 ## ES Module Import Error
@@ -48,3 +66,25 @@ Add the following to `package.json`:
 "type": "module"
 }
 ```
+## `TypeError` Solutions
+
+### `omArray(data)`
+`data` isn't an array
+
+### Non-number value
+`.sum()`, `.mean()`, `.max()`, `.min()`
+
+### 
+
+## `RangeError` Solutions
+
+## `omArray(data)`
+Rows have different lengths
+
+### `.mean()`, `.max()`, `.min()`
+Empty array
+
+### .transpose()
+Array isn't 2D
+
+### 

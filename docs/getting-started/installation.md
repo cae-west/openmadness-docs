@@ -56,7 +56,6 @@ console.log(data.sum());
 ```
 
 Then run:
-
 ```bash
 node play.js
 ```
