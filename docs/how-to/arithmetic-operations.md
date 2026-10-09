@@ -1,5 +1,7 @@
-# Arithmetic Operations
-
+---
+title: Arithmetic Operations
+author: Cae
+---
 ## Overview
 
 Openmadness has methods for doing math with arrays and matrices. Once you've created arrays with `omArray()`, you can add, subtract, multiply, and divide them element by element. You can also find the dot product of two arrays.

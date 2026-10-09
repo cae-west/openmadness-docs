@@ -1,5 +1,6 @@
 ---
 title: Troubleshooting
+author: Ethan
 ---
 ## Installation Error
 If npm installation of Openmadness fails, first verify if your version of Node.js is supported:

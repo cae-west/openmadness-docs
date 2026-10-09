@@ -1,5 +1,7 @@
-# Array/Matrix Creation
-
+---
+title: Array/Matrix Creation
+author: Cae
+---
 ## Overview
 
 The `omArray()` function is the foundation for creating arrays and matrices in Openmadness. It allows you to build multi-dimensional data structures with ease.

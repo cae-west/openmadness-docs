@@ -1,5 +1,6 @@
 ---
 title: Introduction
+author: Ethan
 ---
 Openmadness is a lightweight, open-source Javascript library designed to make mathematical and array-based operations in JavaScript easy as can be.  
 

@@ -1,5 +1,7 @@
-# Array Manipulation
-
+---
+title: Array Manipulation
+author: Cae
+---
 ## Overview
 
 Openmadness gives you methods to change the shape and structure of your arrays without changing the values inside them. Once you've created an array with `omArray()`, you can transpose it, flatten it, or reshape it into new dimensions.

@@ -33,8 +33,8 @@ export default defineUserConfig({
         prefix: '/getting-started/',
         children: [
           'introduction',
-          'installation',
           'quickstart',
+          'installation',
         ],
       },
       {
@@ -56,6 +56,10 @@ export default defineUserConfig({
       {
         text: 'Troubleshooting',
         link: '/troubleshooting/',
+      },
+      {
+        text: 'Glossary',
+        link: '/glossary/',
       },
       {
         text: 'Changelog',

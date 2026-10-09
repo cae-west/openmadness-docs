@@ -1,5 +1,7 @@
-# Data Operations
-
+---
+title: Data Operations
+author: Cae
+---
 ## Overview
 
 Openmadness has methods for picking out just the data you need. Once you've created an array with `omArray()`, you can slice out a section of it, filter it with a condition, or use a logical mask to choose which values to keep.

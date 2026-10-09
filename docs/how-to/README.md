@@ -1,5 +1,7 @@
-# How-To Guide on Openmadness
-
+---
+title: How-To Guide on Openmadness
+author: Cae
+---
 These guides show you how to use Openmadness to create, analyze, reshape, and do math with arrays and matrices. Each guide covers one group of methods. You'll find short code examples, the output to expect, and fixes for common errors.
 
 ## Before You Start

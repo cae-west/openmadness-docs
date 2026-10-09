@@ -1,5 +1,7 @@
-# Statistical Operations
-
+---
+title: Statistical Operations
+author: Cae
+---
 ## Overview
 
 Openmadness includes built-in methods for common statistical calculations. Once you've created an array with `omArray()`, you can call these methods directly on it to sum, average, and find the largest and smallest values in your data.

@@ -1,4 +1,7 @@
-# Installation and Setup
+---
+title: Installation and Setup
+author: Ethan
+---
 How to install and setup Openmadness, using npm or download directly to your own machine.
 
 :::important Prerequisite
