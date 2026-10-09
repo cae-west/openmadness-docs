@@ -12,23 +12,29 @@ export default defineUserConfig({
     logo: '/logo-wordmark.png',
     logoDark: '/logo-wordmark-dark.png',
     navbarTitle: '',
+    navbarLayout: {
+      start: ['Brand'],
+      center: [],
+      end: ['Links', 'Language', 'Repo', 'Outlook', 'Search'],
+    },
     navbar: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/getting-started/introduction.md' },
       { text: 'How-To', link: '/how-to/' },
       { text: 'API References', link: '/api-references/' },
+      { text: 'Troubleshooting', link: '/troubleshooting/' },
       { text: 'Changelog', link: '/changelog/' },
       { text: 'Credits', link: '/credits/' },
     ],
     sidebar: [
-      {
+            {
         text: 'Getting Started',
-        link: '/getting-started/introduction.md',
+        link: '/getting-started/',
         prefix: '/getting-started/',
         children: [
           'introduction',
-          'quickstart',
           'installation',
+          'quickstart',
         ],
       },
       {
