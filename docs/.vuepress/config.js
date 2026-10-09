@@ -34,8 +34,8 @@ export default defineUserConfig({
         prefix: '/getting-started/',
         children: [
           'introduction',
-          'quickstart',
           'installation',
+          'quickstart',
         ],
       },
       {
