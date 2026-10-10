@@ -118,7 +118,7 @@ export default defineUserConfig({
       docsearch: {
         appId: 'D1XA5UFQT8',
         apiKey: '0ca50baee81720eaebc37232a608758f',
-        indices: ['Openmadness Search'],
+        indices: ['Openmadness search cache.tmp'],
       },
     },
     repo: 'cae-west/openmadness-docs',
