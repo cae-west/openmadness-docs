@@ -1,32 +1,35 @@
-# Openmadness
+# Openmadness Documentation
 
-*A beginner-friendly JavaScript library for fast, intuitive array and math operations — built for curious minds who love tinkering with numbers, data, and simplicity.*
+Documentation site for **Openmadness**: a fictional JavaScript library for
+fluent, NumPy-inspired array and matrix operations, created as a technical
+writing exercise for the Technical Writing Mentorship Program (TWMP).
 
-## What is Openmadness?
+> **About this project**
+> Openmadness itself is a fictional library built from its specification in
+> the [TWMP Openmadness spec](https://github.com/Technical-writing-mentorship-program/Openmadness/blob/main/Openmadnness.md).
+> This repository contains the user-facing documentation for that spec,
+> written and maintained by the authors below.
 
-Openmadness is a lightweight JavaScript library that clarifies array-based and mathematical operations. Inspired by the spirit of NumPy, this project offers a JavaScript-first approach to everyday data manipulation tasks.
+## Authors
 
-This is a fictional but realistic open-source project created by the **Technical Writers Mentorship Program (TWMP)** to help documentation engineers practice building rich, clear, and user-centered documentation.
+* Cae
+* Ethan
 
-You'll find more details about the library in the [Openmadness.md](https://github.com/Technical-writing-mentorship-program/Openmadness/blob/main/Openmadnness.md) file.
+## License
 
-## Why Openmadness?
+MIT License — see [LICENSE](./LICENSE).
 
-- **Built for beginners** – No complex setup or confusing syntax.
-- **Modular and lightweight** – Use what you need, nothing more.
-- **Simple, chainable API** – Modeled after real-world learning patterns.
-- **Easily testable** – Great for REPLs, personal projects, and learning by doing.
-- **Modern JavaScript** – Built with ES modules and functional patterns.
+## How the docs are built
 
-## How to use this project
+This site is built with [VuePress 2](https://vuepress.vuejs.org/) using the
+[theme-hope](https://theme-hope.vuejs.press/) theme.
 
-The following steps will guide you in using this project effectively:
+1. `npm install`
+2. `npm run docs:dev` to preview locally at `http://localhost:8080`
+3. `npm run docs:build` to produce a static site in `docs/.vuepress/dist`
 
-1. Read the [Openmadness.md](https://github.com/Technical-writing-mentorship-program/Openmadness/blob/main/Openmadnness.md) file to understand how the library works.
-2. Create a documentation audit outlining what’s needed for a complete and helpful user experience.
-3. Choose a static site generator (SSG) you want to work with.
-4. Build your documentation project — structure it however you see fit!
-5. Share your finished docs with the community!
+## Repository layout
 
-We can’t wait to see the amazing documentation you build.
-
+* `docs/` — all published documentation (source for the website)
+* `docs/.vuepress/` — site configuration
+* `package.json`, `.gitignore` — project scaffolding
