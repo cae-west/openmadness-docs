@@ -2,7 +2,6 @@
 title: Troubleshooting
 author: Ethan
 ---
-import { shikiPlugin } from '@vuepress/plugin-shiki'
 
 ## Installation Error
 If npm installation of Openmadness fails, first verify if your version of Node.js is supported:
@@ -311,5 +310,3 @@ Empty array
 
 ### .transpose()
 Array isn't 2D
-
-### 
