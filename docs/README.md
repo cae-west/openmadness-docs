@@ -9,7 +9,7 @@ heroImageStyle:
   max-width: 300px
 actions:
   - text: Get Started
-    link: /getting-started/
+    link: /getting-started/introduction
     type: primary
   - text: View How-To Guides
     link: /how-to/

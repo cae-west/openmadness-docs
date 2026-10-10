@@ -1,7 +1,6 @@
 ---
 title: Troubleshooting
 author: Ethan
-notationDiff: true
 ---
 ## Installation Error
 If npm installation of Openmadness fails, first verify if your version of Node.js is supported:
@@ -370,7 +369,6 @@ omArray([
 ]);
 ```
 **Solution:** Adjust the rows until they're all even.
-///notationDiff: true
 ```js {4}
 omArray([
   [1, 2, 3],
