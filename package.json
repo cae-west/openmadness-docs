@@ -19,8 +19,13 @@
   "license": "MIT",
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.31",
+    "@vuepress/plugin-docsearch": "^2.0.0-rc.137",
     "sass-embedded": "latest",
     "vuepress": "2.0.0-rc.31",
     "vuepress-theme-hope": "2.0.0-rc.110"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true,
+    "fsevents@2.3.3": true
   }
 }

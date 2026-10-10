@@ -1,6 +1,7 @@
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { hopeTheme } from 'vuepress-theme-hope'
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 
 export default defineUserConfig({
   lang: 'en-US',
@@ -107,4 +108,13 @@ export default defineUserConfig({
     docsDir: 'docs',
     docsBranch: 'main',
   }),
+  // Search plugin configuration
+  plugins: [
+    docsearchPlugin({
+      // options
+      appId: 'D1XA5UFQT8',
+      apiKey: '0ca50baee81720eaebc37232a608758f',
+      indices: ['Openmadness Documentation'],
+    }),
+  ],
 })
