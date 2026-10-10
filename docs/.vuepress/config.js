@@ -1,7 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { hopeTheme } from 'vuepress-theme-hope'
-//<meta name="algolia-site-verification"  content="BAC47FB3FFC0AFB5" /> // agolia site verification meta tag
 
 export default defineUserConfig({
   lang: 'en-US',
