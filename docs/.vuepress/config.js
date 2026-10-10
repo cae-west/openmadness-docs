@@ -23,6 +23,7 @@ export default defineUserConfig({
       { text: 'How-To', link: '/how-to/' },
       { text: 'API References', link: '/api-references/' },
       { text: 'Troubleshooting', link: '/troubleshooting/' },
+      { text: 'Glossary', link: '/glossary/' },
       { text: 'Changelog', link: '/changelog/' },
       { text: 'Credits', link: '/credits/' },
     ],
@@ -33,8 +34,8 @@ export default defineUserConfig({
         prefix: '/getting-started/',
         children: [
           'introduction',
-          'quickstart',
           'installation',
+          'quickstart',
         ],
       },
       {

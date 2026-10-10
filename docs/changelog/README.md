@@ -1,5 +1,6 @@
 ---
 title: Changelog
+author: Ethan
 ---
 ## Version 1.0.0 (October 2026)
 
