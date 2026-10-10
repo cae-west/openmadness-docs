@@ -13,6 +13,7 @@ author: Ethan
 - Glossary with Javascript concepts and terminology
 - Credits page with team information
 - [Biel.ai](https://biel.ai) chatbot button
+- [agolia](https://www.algolia.com) search bar
 
 ### Features
 - Array/Matrix Creation documentation
