@@ -100,7 +100,7 @@ Functions that execute immediately after being defined are called IIFE.
 ## Inheritance (OOP)
 Inheritance are the mechanism to create a new class based on an existing class.
 ## JSON (JavaScript Object Notation)
-JSON (`.json`) is a lightweight data-interchange format that's easy to read and write for humans and machines.
+JSON (.json) is a lightweight data-interchange format that's easy to read and write for humans and machines.
 ## JS Modules
 Modules are the way to structure and share code across different files using export and import.
 ## JavaScript Objects
@@ -125,7 +125,6 @@ An object is a dynamic data structure that stores related data as key-value pair
 OOP is a programming paradigm based on the concept of objects, using classes and inheritance. (See [Encapsulation](#encapsulation-oop) and [Inheritence](#inheritance-oop))
 ## Operators
 Operators are the symbols used to perform operations on values and variables.
-
 ## Primitive Data Types
 Primitive Data Types are the simplest types in JavaScript, such as [`string`](#strings), `number`, [`boolean`](#boolean), [`null`](#null), [`undefined`](#undefined), `symbol`, and [`bigint`](#bigint).
 ## Promises

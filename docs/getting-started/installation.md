@@ -16,7 +16,7 @@ The Openmadness library is available on npm for easy installation, simply type i
 npm install openmadness
 ```
 
-Then use it in your project:
+Then import and use it in your project:
 
 ```js
 import { omArray } from 'openmadness';
@@ -64,4 +64,4 @@ node play.js
 ```
 
 ## Next
-Take a look at [Quickstart](quickstart.md) to learn the basics of Openmadness. Then you can read the [How-To guides](/how-to/README.md) for more advanced operations.
+Take a look at the [How-To guides](/how-to/README.md) to learn to use Openmadness.
