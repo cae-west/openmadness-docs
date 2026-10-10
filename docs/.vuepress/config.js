@@ -24,8 +24,8 @@ export default defineUserConfig({
       if (typeof window !== 'undefined') {
         window.addEventListener('DOMContentLoaded', () => {
           const button = document.createElement('biel-button');
-          button.setAttribute('project', '<qcn42agvt6>');
-          button.setAttribute('header-title', 'Biel.ai chatbot');
+          button.setAttribute('project', 'qcn42agvt6');
+          button.setAttribute('header-title', 'Openmadness.ai chatbot');
           button.setAttribute('button-position', 'bottom-right');
           button.setAttribute('modal-position', 'bottom-right');
           button.setAttribute('button-style', 'dark');
