@@ -7,12 +7,8 @@ export default defineUserConfig({
   title: 'Openmadness Documentation',
   description: 'Complete guide to using Openmadness for array and matrix operations',
   bundler: viteBundler(),
-  theme: hopeTheme({
-    favicon: '/favicon.png',
-    logo: '/logo-wordmark.png',
-    logoDark: '/logo-wordmark-dark.png',
-    // The following code creates the Biel.ai chatbot button.
-    head: [
+  // The following code creates the Biel.ai chatbot button.
+  head: [
     [
       'link',
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/biel-search/dist/biel-search/biel-search.css' }
@@ -39,7 +35,11 @@ export default defineUserConfig({
       }
       `
     ]
-    ],
+  ],
+  theme: hopeTheme({
+    favicon: '/favicon.png',
+    logo: '/logo-wordmark.png',
+    logoDark: '/logo-wordmark-dark.png',
     navbarTitle: '',
     navbarLayout: {
       start: ['Brand'],
