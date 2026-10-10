@@ -9,6 +9,7 @@ author: Ethan
 - Getting Started guide with installation instructions
 - How-To guides for all major functions
 - API references and error handling documentation
+- Troubleshooting guide to help correct errors
 - Glossary with Javascript concepts and terminology
 - Credits page with team information
 - [Biel.ai](https://biel.ai) chatbot button
