@@ -1,8 +1,8 @@
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { hopeTheme } from 'vuepress-theme-hope'
-import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 //<meta name="algolia-site-verification"  content="BAC47FB3FFC0AFB5" /> // agolia site verification meta tag
+
 export default defineUserConfig({
   lang: 'en-US',
   title: 'Openmadness Documentation',
@@ -103,18 +103,16 @@ export default defineUserConfig({
     ],
     plugins: {
       photoSwipe: false,
+      // Search plugin configuration
+      docsearch: {
+        // options
+        appId: 'D1XA5UFQT8',
+        apiKey: '0ca50baee81720eaebc37232a608758f',
+        indices: 'Openmadness Documentation',
+      }
     },
     repo: 'cae-west/openmadness-docs',
     docsDir: 'docs',
     docsBranch: 'main',
   }),
-  // Search plugin configuration
-  plugins: [
-    docsearchPlugin({
-      // options
-      appId: 'D1XA5UFQT8',
-      apiKey: '0ca50baee81720eaebc37232a608758f',
-      indices: ['Openmadness Documentation'],
-    }),
-  ],
 })
