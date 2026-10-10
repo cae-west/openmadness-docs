@@ -62,3 +62,6 @@ Then run:
 ```bash
 node play.js
 ```
+
+## Next
+Take a look at [Quickstart](quickstart.md) to learn the basics of Openmadness. Then you can read the [How-To guides](/how-to/README.md) for more advanced operations.

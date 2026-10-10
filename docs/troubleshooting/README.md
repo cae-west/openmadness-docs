@@ -2,6 +2,8 @@
 title: Troubleshooting
 author: Ethan
 ---
+import { shikiPlugin } from '@vuepress/plugin-shiki'
+
 ## Installation Error
 If npm installation of Openmadness fails, first verify if your version of Node.js is supported:
 ```shell
@@ -274,9 +276,9 @@ console.log(numbers.filter(x => x > 2)); // ✅ Correct
 ```
 
 ## `TypeError` Solutions
-
+The TypeError object represents an error when an operation could not be performed, typically (but not exclusively) when a value is not of the expected type.
 ### `omArray(data)`
-`data` isn't an array
+#### `data` isn't an array
 
 ### Non-number value
 `.sum()`, `.mean()`, `.max()`, `.min()`
@@ -284,9 +286,25 @@ console.log(numbers.filter(x => x > 2)); // ✅ Correct
 ### 
 
 ## `RangeError` Solutions
-
+A RangeError is thrown when trying to pass a value as an argument to a function that does not allow a range that includes the value.
 ## `omArray(data)`
-Rows have different lengths
+The rows of the array have different lengths, adjust one of the rows so they're all even.
+**Example:**
+```js {4}
+const unevenMatrix = omArray([
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8]
+]);
+```
+Correct to:
+```js transformerNotationDiff=true
+const unevenMatrix = omArray([
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9] // [!code ++]
+]);
+```
 
 ### `.mean()`, `.max()`, `.min()`
 Empty array

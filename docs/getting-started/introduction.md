@@ -23,5 +23,5 @@ Openmadness is ideal for experienced developers and beginning coders alike:
 - Arithmetic Operations: [`.dot()`, `.add()`, `.subtract()`, `.multiply()`, `.divide()`](/how-to/arithmetic-operations.md)  
 - Data Operations: [Logical masking, slicing, and filtering](/how-to/data-operations.md)
 
-# Next
+## Next
 Click on [Quickstart](quickstart.md) to learn how to use basic Openmadness operations!
