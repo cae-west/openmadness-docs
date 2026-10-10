@@ -17,7 +17,6 @@ export default defineUserConfig({
         content: 'BAC47FB3FFC0AFB5',
       },
     ],
-
     // The following code creates the Biel.ai chatbot button.
     [
       'link',
@@ -119,7 +118,7 @@ export default defineUserConfig({
       docsearch: {
         appId: 'D1XA5UFQT8',
         apiKey: '0ca50baee81720eaebc37232a608758f',
-        indices: ['Openmadness Documentation'],
+        indices: ['Openmadness Search'],
       },
     },
     repo: 'cae-west/openmadness-docs',
