@@ -16,4 +16,4 @@ This documentation was created by the students of the TWMP as a collaborative pr
 
 ### Contributors
 - **Ethan** - Getting Started, Introduction, Installation, Troubleshooting, Glossary, Changelog, AI Chatbot, and Credits
-- **Cae** - Home Page, Quickstart, How-To Guides, Error Handling, and API References
+- **Cae** - Home Page, Theme Setup, Hero Images, Quickstart, How-To Guides, Error Handling, and API References
