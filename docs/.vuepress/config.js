@@ -7,15 +7,31 @@ export default defineUserConfig({
   title: 'Openmadness Documentation',
   description: 'Complete guide to using Openmadness for array and matrix operations',
   bundler: viteBundler(),
-  // The following code creates the Biel.ai chatbot button.
+
   head: [
+    // Algolia site verification meta tag
+    [
+      'meta',
+      {
+        name: 'algolia-site-verification',
+        content: 'BAC47FB3FFC0AFB5',
+      },
+    ],
+
+    // The following code creates the Biel.ai chatbot button.
     [
       'link',
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/biel-search/dist/biel-search/biel-search.css' }
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdelivr.net/npm/biel-search/dist/biel-search/biel-search.css',
+      },
     ],
     [
       'script',
-      { type: 'module', src: 'https://cdn.jsdelivr.net/npm/biel-search/dist/biel-search/biel-search.esm.js' }
+      {
+        type: 'module',
+        src: 'https://cdn.jsdelivr.net/npm/biel-search/dist/biel-search/biel-search.esm.js',
+      },
     ],
     [
       'script',
@@ -24,7 +40,7 @@ export default defineUserConfig({
       if (typeof window !== 'undefined') {
         window.addEventListener('DOMContentLoaded', () => {
           const button = document.createElement('biel-button');
-          button.setAttribute('project', 'qcn42agvt6'); // Replace with your actual project ID
+          button.setAttribute('project', 'qcn42agvt6');
           button.setAttribute('header-title', 'Openmadness.ai chatbot');
           button.setAttribute('button-position', 'bottom-right');
           button.setAttribute('modal-position', 'bottom-right');
@@ -33,9 +49,10 @@ export default defineUserConfig({
           document.body.appendChild(button);
         });
       }
-      `
-    ]
+      `,
+    ],
   ],
+
   theme: hopeTheme({
     favicon: '/favicon.png',
     logo: '/logo-wordmark.png',
@@ -57,15 +74,11 @@ export default defineUserConfig({
       { text: 'Credits', link: '/credits/' },
     ],
     sidebar: [
-            {
+      {
         text: 'Getting Started',
         link: '/getting-started/',
         prefix: '/getting-started/',
-        children: [
-          'introduction',
-          'quickstart',
-          'installation',
-        ],
+        children: ['introduction', 'quickstart', 'installation'],
       },
       {
         text: 'How-To / Error Handling',
@@ -102,13 +115,12 @@ export default defineUserConfig({
     ],
     plugins: {
       photoSwipe: false,
-      // Search plugin configuration
+      // DocSearch must be configured here under theme plugins
       docsearch: {
-        // options
         appId: 'D1XA5UFQT8',
         apiKey: '0ca50baee81720eaebc37232a608758f',
-        indices: 'Openmadness Documentation',
-      }
+        indices: ['Openmadness Documentation'],
+      },
     },
     repo: 'cae-west/openmadness-docs',
     docsDir: 'docs',
