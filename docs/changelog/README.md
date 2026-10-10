@@ -11,6 +11,7 @@ author: Ethan
 - API references and error handling documentation
 - Glossary with Javascript concepts and terminology
 - Credits page with team information
+- [Biel.ai](https://biel.ai) chatbot button
 
 ### Features
 - Array/Matrix Creation documentation

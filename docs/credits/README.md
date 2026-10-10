@@ -15,5 +15,5 @@ This documentation serves as guide to using the fictional Openmadness Javascript
 This documentation was created by the students of the TWMP as a collaborative project.
 
 ### Contributors
-- **Ethan** - Getting Started, Introduction, Installation, Troubleshooting, Glossary, Changelog, and Credits
+- **Ethan** - Getting Started, Introduction, Installation, Troubleshooting, Glossary, Changelog, AI Chatbot, and Credits
 - **Cae** - Home Page, Quickstart, How-To Guides, Error Handling, and API References
