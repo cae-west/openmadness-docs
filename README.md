@@ -33,3 +33,6 @@ This site is built with [VuePress 2](https://vuepress.vuejs.org/) using the
 * `docs/` — all published documentation (source for the website)
 * `docs/.vuepress/` — site configuration
 * `package.json`, `.gitignore` — project scaffolding
+
+## Vulnerabilities
+The project currently reports moderate vulnerabilities in transitive build-time dependencies inherited from the VuePress 2 RC ecosystem. Automated remediation via `npm audit fix --force` fails due to an npm resolver issue (undefined@undefined). The vulnerabilities do not affect the generated static documentation site at runtime.
