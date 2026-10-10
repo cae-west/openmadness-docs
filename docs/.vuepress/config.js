@@ -2,7 +2,7 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { hopeTheme } from 'vuepress-theme-hope'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
-
+<meta name="algolia-site-verification"  content="BAC47FB3FFC0AFB5" />
 export default defineUserConfig({
   lang: 'en-US',
   title: 'Openmadness Documentation',
